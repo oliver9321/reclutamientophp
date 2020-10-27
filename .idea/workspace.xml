@@ -1,7 +1,289 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="12fb1495-60df-4bc4-a03d-137250bf1478" name="Default Changelist" comment="" />
+    <list default="true" id="12fb1495-60df-4bc4-a03d-137250bf1478" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/candidatos.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/candidatos.controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/empleados.controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/empleados.controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/candidatosModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/candidatosModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/empleadosModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/empleadosModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/models.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/models.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/candidatos/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/candidatos/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/candidatos/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/candidatos/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/empleados/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/empleados/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/ChangeLog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/HACKING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/INSTALL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/LICENSE.LGPL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/TODO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/dompdf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/dompdf_config.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/abstract_renderer.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/attribute_translator.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/block_frame_decorator.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/block_frame_reflower.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/block_positioner.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/block_renderer.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/cached_pdf_decorator.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/canvas.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/canvas_factory.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/cellmap.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/cpdf_adapter.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/dompdf.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/dompdf_exception.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/dompdf_internal_exception.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/font_metrics.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/frame.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/frame_decorator.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/frame_factory.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/frame_reflower.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/frame_tree.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/functions.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/gd_adapter.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/generated_frame_reflower.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/image_cache.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/image_frame_decorator.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/image_frame_reflower.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/image_renderer.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/inline_frame_decorator.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/inline_frame_reflower.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/inline_positioner.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/inline_renderer.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/list_bullet_frame_decorator.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/list_bullet_frame_reflower.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/list_bullet_image_frame_decorator.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/list_bullet_positioner.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/list_bullet_renderer.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/null_frame_decorator.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/null_frame_reflower.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/null_positioner.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/page_cache.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/page_frame_decorator.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/page_frame_reflower.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/pdflib_adapter.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/php_evaluator.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/positioner.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/renderer.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/style.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/stylesheet.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/table_cell_frame_decorator.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/table_cell_frame_reflower.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/table_cell_positioner.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/table_cell_renderer.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/table_frame_decorator.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/table_frame_reflower.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/table_row_frame_decorator.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/table_row_frame_reflower.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/table_row_group_frame_decorator.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/table_row_group_frame_reflower.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/table_row_positioner.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/tcpdf_adapter.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/text_frame_decorator.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/text_frame_reflower.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/include/text_renderer.cls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/class.pdf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/Courier-Bold.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/Courier-BoldOblique.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/Courier-Oblique.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/Courier.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/Helvetica-Bold.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/Helvetica-BoldOblique.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/Helvetica-Oblique.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/Helvetica.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/Times-Bold.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/Times-BoldItalic.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/Times-Italic.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/Times-Roman.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/ZapfDingbats.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/dompdf_font_family_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/dompdf_font_family_cache.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/php_Times-Bold.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/php_Times-BoldItalic.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/fonts/php_Times-Roman.afm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/res/broken_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/lib/res/html.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/load_font.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/examples.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/faq.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/foot.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/head.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/arrow_01.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/arrow_02.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/arrow_03.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/arrow_04.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/arrow_05.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/arrow_06.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/css2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/dompdf_simple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/h_bar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/left_arrow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/php5-power-micro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/small_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/star_01.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/star_02.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/star_03.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/star_04.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/star_05.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/title.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/v_bar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/images/xhtml10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/install.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/anchor_link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/background_image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/baseline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/block_height.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/border_css_values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/border_test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/br.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/center_table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/demo_01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/dompdf_simple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/entities.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/gif_test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/html_attributes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/latin1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/long_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/margin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/multiple_class.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/nbsp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/pages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/php.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/php_test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/print_static.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/remote.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/simple_ul.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/special.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/symbols.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/table_height.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/table_image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/ul.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/test/unicode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dompdf/www/usage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170718041705-4-187x300 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170718044007-228-software-para-citas-m¦+dicas-y-gesti¦nn-de-turnos-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170718044143-228-software-para-citas-m¦+dicas-y-gesti¦nn-de-turnos-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170718044143-cabezera-1200x623.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170718044255-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170718044347-func-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170718044512-tv-debq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170718044548-sistema-gestion-turnos-e10_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170718050930-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170718050955-228-software-para-citas-m¦+dicas-y-gesti¦nn-de-turnos-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170718051029-tv-debq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170718051248-cabezera-1200x623.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170718053030-228-software-para-citas-m¦+dicas-y-gesti¦nn-de-turnos-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170723051033-unnamed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170723052728-logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725035959-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725040617-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725041636-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725042125-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725042522-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725043157-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725043238-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725043459-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725044826-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725044901-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725044934-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725045321-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725045336-228-software-para-citas-m¦+dicas-y-gesti¦nn-de-turnos-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725045405-func-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725045417-tv-debq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725045439-trabajo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725045530-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725045646-228-software-para-citas-m¦+dicas-y-gesti¦nn-de-turnos-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170725045646-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170727120018-unnamed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170727120245-4-187x300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170727120515-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170727120526-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170727120540-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170728041220-unnamed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170728042612-tv-debq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170729091128-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170729091153-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170729091207-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170729091220-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/170819071450-arssemma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/171119011431-header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/171119125449-muestrsa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180414015341-captura de pantalla (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180414020749-7fd80f70-22ca-4262-8bce-b666e6542f65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180501030510-logoseguromedico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180501030533-especial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180501030548-resultados.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180501030601-toma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180501030706-seguros_salud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180501032914-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180501033135-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180502010147-sin_seguro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180502011609-sin_seguro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180502013150-toma_muestra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180502013237-toma_muestra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180502013343-toma_muestra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180502013756-seguro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180502013929-seguro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180502014013-toma_muestra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180502014557-especial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180502015025-resultados.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180502020242-privado.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180502021742-toma_muestra2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180502024303-discapacidad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180502024509-discapacidad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180502025020-images.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180504082028-coding-html-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180504082041-coding-html-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180504082111-coding-html-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180504082126-coding-html-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180504082222-usuario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180504082240-descarga (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180504082258-descarga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180504082410-usuario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180504082803-usuario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180504083005-usuario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180504083152-descarga (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180504083256-descarga (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180504083441-user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180505035224-usuario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180505035834-usuario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180612040145-usuario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180626035141-capture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/180626035229-usuario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/200229105836-55-552128_faixa-azul-png-faixa-png-transparent-png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/200229105850-55-552128_faixa-azul-png-faixa-png-transparent-png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/200311042057-dev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/200311051512-fondoitick.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/logopeq.jpg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +291,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jQgsxrkyQS5ChFwU8jJsBfYoJZ" />
   <component name="ProjectViewState">
@@ -23,6 +308,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\reclutamiento\View" />
       <recent name="C:\xampp\htdocs\itick\View" />
       <recent name="C:\xampp\htdocs\itick\Controller" />
     </key>
@@ -36,20 +322,32 @@
       <option name="presentableId" value="Default" />
       <updated>1603741940095</updated>
       <workItem from="1603741941132" duration="10489000" />
+      <workItem from="1603807535062" duration="5958000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state width="498" height="446" key="SwitcherDM" timestamp="1603767259933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1603767259933" />
-    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1603771521783">
+    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1603810265686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1603771521783" />
+    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1603810265686" />
   </component>
 </project>

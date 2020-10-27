@@ -64,7 +64,7 @@ class EmpleadosController
             $Empleados = new EmpleadosModel();
 
             $Empleados->Id           = $_REQUEST['Id'];
-            $Empleados->PuestoID     = $_REQUEST['PuestoID'];
+            $Empleados->PuestoId     = $_REQUEST['PuestoId'];
             $Empleados->CandidatoId  = $_REQUEST['CandidatoId'];
             $Empleados->FechaIngreso = $_REQUEST['FechaIngreso'];
             $Empleados->Salario      = $_REQUEST['Salario'];
@@ -87,7 +87,7 @@ class EmpleadosController
                 $Message = $this->model->Create($Empleados);
 
                 if ($Message != "1") {
-                    echo '<script>alert("' . $Message . '"); setTimeout(function(){ window.location.href = "../index.php"; }, 100);</script>';
+                    echo '<script>alert("' . $Message . '"); setTimeout(function(){ window.location.href = "index.php?c=candidatos&a=Edit"; }, 100);</script>';
                 } else {
                     header('Location:index.php?c=empleados&a=index');
                 }

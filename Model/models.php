@@ -12,3 +12,4 @@ require_once 'puestosModel.php';
 require_once 'usuariosModel.php';
 require_once 'LoginModel.php';
 require_once 'dashboardModel.php';
+require_once 'candidatosModel.php';

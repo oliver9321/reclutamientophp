@@ -35,16 +35,12 @@ class CandidatosController
 
     public function Edit(){
 
-        //Instancias de clases
-        $this->model = $this->model;
+        $Candidatos = $this->model;
         $Puestos = new PuestosModel();
-       // $PuestosByUser = "";
-       // $PuestosArray = $Puestos->GetListPuestos();
+        $PuestosArray = $Puestos->GetListPuestos();
 
         if(isset($_REQUEST['Id'])){
-
-            $this->model =  $this->model->Edit($_REQUEST['Id']);
-           // $PuestosByUser =  $Puestos->GetListPuestosByUser($_REQUEST['Id']);
+            $Candidatos=  $this->model->Edit($_REQUEST['Id']);
         }
 
        GetRouteView(null, "header");
@@ -62,11 +58,14 @@ class CandidatosController
         if (isset($_REQUEST['Cedula']) || isset($_REQUEST['PuestoId'])) {
           
             $this->model->Id                  = $_REQUEST['Id'];
-            $this->model->PuestoID            = $_REQUEST['PuestoID'];
+            $this->model->PuestoId            = $_REQUEST['PuestoId'];
             $this->model->Cedula              = $_REQUEST['Cedula'];
+            $this->model->Nombre              = $_REQUEST['Nombre'];
             $this->model->SalarioAspira       = $_REQUEST['SalarioAspira'];
             $this->model->RecomendadoPor      = $_REQUEST['RecomendadoPor'];
-            $this->model->Estado = $_REQUEST['Estado'];
+            $this->model->Estado              = $_REQUEST['Estado'];
+            $this->model->CreadoPor           = $_SESSION['DataUserOnline']->Nombre;
+            $this->model->UsuarioId           = $_SESSION['DataUserOnline']->Id;
             $this->model->FechaCreacion = date('Y-m-d');
 
             if ($this->model->Id > 0) {
@@ -84,7 +83,7 @@ class CandidatosController
                 $Message = $this->model->Create($this->model);
 
                 if ($Message != "1") {
-                    echo '<script>alert("' . $Message . '"); setTimeout(function(){ window.location.href = "../index.php"; }, 100);</script>';
+                    echo '<script>alert("' . $Message . '"); setTimeout(function(){ window.location.href = "index.php?c=candidatos&a=Edit"; }, 100);</script>';
                 } else {
                     header('Location:index.php?c=candidatos&a=index');
                 }

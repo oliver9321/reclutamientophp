@@ -137,6 +137,19 @@
                     </ul>
                 </li>
 
+                <li class="with-sub">
+                    <a href="#" class="waves-effect  waves-light">
+                        <span class="s-caret"><i class="fa fa-angle-down"></i></span>
+                        <span class="s-icon"><i class="ti-user"></i></span>
+                        <span class="s-text">Candidatos</span>
+                    </a>
+                    <ul>
+                        <li><a href="?c=candidatos&a=Edit">Nuevo Candidato</a></li>
+                        <li><a href="?c=candidatos&a=index">Ver Listado</a></li>
+
+                    </ul>
+                </li>
+
                 <!--MANT DE USUARIOS-->
                 <li class="with-sub">
                     <a href="#" class="waves-effect  waves-light">
@@ -150,6 +163,21 @@
 
                     </ul>
                 </li>
+
+                <li class="with-sub">
+                    <a href="#" class="waves-effect  waves-light">
+                        <span class="s-caret"><i class="fa fa-angle-down"></i></span>
+                        <span class="s-icon"><i class="ti-user"></i></span>
+                        <span class="s-text">Empleados</span>
+                    </a>
+                    <ul>
+                        <li><a href="?c=empleados&a=Edit">Nuevo Empleado</a></li>
+                        <li><a href="?c=empleados&a=index">Ver Listado</a></li>
+
+                    </ul>
+                </li>
+
+
 
                 <li class="with-sub">
                     <a href="#" class="waves-effect  waves-light">

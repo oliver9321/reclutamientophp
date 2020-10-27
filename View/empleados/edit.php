@@ -25,7 +25,7 @@
                 <select id="PuestoId" name="PuestoId" class="form-control select2" style="width: 100%">
                     <option value="" selected>Seleccione el puesto</option>
                     <?php foreach($PuestosArray as $a): ?>
-                        <option value="<?php echo $a->Id; ?>"><?php echo $a->Nombre; ?></option>
+                        <option value="<?php echo $a->Id; ?>"><?php echo $a->Puesto; ?></option>
                     <?php endforeach; ?>
                 </select>
             </div>

@@ -5,14 +5,15 @@ class CandidatosModel
     private $pdo;
 
     public $Id;
-    public $PuestoID;
+    public $PuestoId;
     public $Cedula;
     public $Nombre;
     public $SalarioAspira;
-    public $ReomendadoPor;
+    public $RecomendadoPor;
     public $FechaCreacion;
     public $CreadoPor;
     public $Estado;
+    public $UsuarioId;
 
     public function __CONSTRUCT()
     {
@@ -64,10 +65,11 @@ class CandidatosModel
 
     public function Update(CandidatosModel $data)
     {
+
         try
         {
             $sql = "UPDATE candidatos SET
-						PuestoID  = ?,
+						PuestoId  = ?,
                         Cedula = ?,
                         Nombre = ?,
                         SalarioAspira = ?,
@@ -79,7 +81,7 @@ class CandidatosModel
             $this->pdo->prepare($sql)
                 ->execute(
                     array(
-                        $data->PuestoID,
+                        $data->PuestoId,
                         $data->Cedula,
                         $data->Nombre,
                         $data->SalarioAspira,
@@ -99,22 +101,24 @@ class CandidatosModel
 
     public function Create (CandidatosModel $data)
     {
+        print_r($data); exit;
         try
         {
-            $sql = "INSERT INTO candidatos (PuestoID,Cedula,Nombre,SalarioAspira,RecomendadoPor,FechaCreacion,CreadoPor,Estado)
-		        VALUES (?,?,?,?,?,?,?,?)";
+            $sql = "INSERT INTO candidatos (PuestoId,Cedula,Nombre,SalarioAspira,RecomendadoPor,FechaCreacion,CreadoPor,Estado,UsuarioId)
+		        VALUES (?,?,?,?,?,?,?,?,?)";
 
             $this->pdo->prepare($sql)
                 ->execute(
                     array(
-                        $data->PuestoID,
+                        $data->PuestoId,
                         $data->Cedula,
                         $data->Nombre,
                         $data->SalarioAspira,
                         $data->RecomendadoPor, 
                         $data->FechaCreacion,
                         (int)$data->CreadoPor,
-                        1
+                        1,
+                        (int)$data->UsuarioId
                     )
                 );
 
@@ -122,9 +126,9 @@ class CandidatosModel
 
             if($LastUsuarioID){
 
-           /* foreach($data->PuestoID as $value){
+           /* foreach($data->PuestoId as $value){
 
-                $sql2 = "INSERT INTO pv_usuarios_puestos (UsuarioID,PuestoID,CreadoPorUsuarioID,FechaCreacion,Estado)
+                $sql2 = "INSERT INTO pv_usuarios_puestos (UsuarioID,PuestoId,CreadoPorUsuarioID,FechaCreacion,Estado)
 		        VALUES (?,?,?,?,?)";
 
                 $this->pdo->prepare($sql2)

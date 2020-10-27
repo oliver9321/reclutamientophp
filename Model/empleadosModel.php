@@ -5,7 +5,7 @@ class EmpleadosModel
     private $pdo;
 
     public $Id;
-    public $PuestoID;
+    public $PuestoId;
     public $CandidatoId;
     public $FechaIngreso;
     public $Salario;
